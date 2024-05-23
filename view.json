@@ -1,0 +1,112 @@
+{
+	"name" : "Home",
+	"display_name" : "Home view for games default",
+	"description" : "",
+	"module_type" : "views",
+	"app_type" : "games",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-modules/games-views-tools-default-home",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.1",
+			"repo" : "https://dev.bazaari.com.au/sp-core/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Games",
+			"version" : "0.0.0",
+			"repo" : "https://github.com/sp-modules/games"
+		},
+		"components" : 
+		[
+			{
+				"name" : "Errors",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/games-components-tools-errors"
+			},
+			
+			{
+				"name" : "Home",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-modules/games-components-tools-home"
+			}
+		],
+		"packages" : 
+		[
+			{
+				"name" : "Home",
+				"version" : "0.2.0",
+				"repo" : "https://github.com/sp-modules/games-packages-tools-home"
+			}
+		],
+		"middlewares" : 
+		[
+			{
+				"name" : "Acl",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/games-middlewares-tools-acl"
+			},
+			
+			{
+				"name" : "Auth",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/games-middlewares-tools-auth"
+			}
+		],
+		"views" : 
+		[
+			{
+				"name" : "Default",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/games-views-tools-default"
+			}
+		]
+	},
+	"is_subview" : true,
+	"settings" : 
+	{
+		"head" : 
+		{
+			"link" : 
+			{
+				"href" : 
+				{
+					"assets" : 
+					{
+						"dev" : [],
+						"prod" : []
+					}
+				}
+			},
+			"script" : 
+			{
+				"src" : 
+				{
+					"assets" : 
+					{
+						"dev" : [],
+						"prod" : []
+					}
+				}
+			}
+		},
+		"footer" : 
+		{
+			"script" : 
+			{
+				"src" : 
+				{
+					"assets" : 
+					{
+						"dev" : [],
+						"prod" : []
+					}
+				}
+			}
+		}
+	}
+}
